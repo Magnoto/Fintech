@@ -1,0 +1,133 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B0CDE3;
+}
+
+.login-box {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    width: 99%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.login-box input[type="submit"] {
+    width: 98%;
+    padding: 10px;
+    background-color: #B0CDE3;
+    border: none;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.login-box a {
+  text-decoration: none;
+    background-color: #B0CDE3; border: none; color: black; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border-radius: 10px;
+    margin-left: 3px;
+}
+
+.login-box a:hover {
+    color: black;
+}
+
+#logo {
+  margin-block: 15px;
+  width: 60px;
+  border-radius: 20px;
+  display: block;
+}
+
+/* página formulário*/
+
+.container-fuid {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: oblique;
+}
+
+#divEmail,
+#divTelefone,
+#divNumero,
+#divCEP,
+#divComplemento,
+#divCidade {
+  margin-left: 15px;
+}
+
+#nome{
+  
+}
+
+#CPF{
+
+}
+
+#telefone{
+  
+}
+
+#senha{
+  
+}
+
+#password{
+	width: 10%;
+}
+
+#rua{
+  
+}
+
+#ncasa{
+  
+}
+
+#CEP{
+  
+}
+
+#bairro{
+
+}
+
+#complemento{
+
+}
+
+#estado{
+
+}
+
+#cidade{
+
+}
+
+#pais{
+  width: 14.5%;
+}
+
+#aceito{
+  margin: 10px;
+  margin-top: 15px;
+}
